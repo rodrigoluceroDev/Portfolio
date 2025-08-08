@@ -2,19 +2,19 @@
 
 Portfolio personal desarrollado con **Next.js**, **TypeScript**, **Tailwind CSS** y **Framer Motion**.
 
-## 📌 Contenido
+## Contenido
 - Presentación profesional
 - Proyectos con stack tecnológico
 - Experiencia laboral y habilidades
 - Formulario de contacto
 
-## 🚀 Tecnologías
+## Tecnologías
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
-## 💻 Ejecutar localmente
+## Ejecutar localmente
 ```bash
 npm install
 npm run dev

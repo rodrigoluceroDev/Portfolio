@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -8,16 +9,17 @@ type Project = {
   description: string;
   tech: string[];
   repo?: string;
-  demo?: string;
+  demo?: string | null;
   thumb?: string;
 };
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <motion.article
-      className="bg-white/5 backdrop-blur p-4 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700"
-      whileHover={{ y: -5, scale: 1.02 }}
-    >
+    <article>
+      <motion.div
+        style={{ background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(4px)', padding: '1rem', borderRadius: '0.75rem', boxShadow: '0 4px 24px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}
+        whileHover={{ y: -5, scale: 1.02 }}
+      >
       {project.thumb && (
         <img
           src={project.thumb}
@@ -62,6 +64,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           </a>
         )}
       </div>
-    </motion.article>
+      </motion.div>
+    </article>
   );
 }

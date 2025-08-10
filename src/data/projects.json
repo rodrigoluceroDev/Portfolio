@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Portfolio",
+    "slug": "portfolio",
+    "year": 2025,
+    "description": "Portfolio personal con Next.js, Tailwind CSS y Framer Motion. Incluye proyectos, CV y contacto.",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "repo": "https://github.com/rodrigoluceroDev/portfolio-rodrigo",
+    "demo": "/",
+    "thumb": "/images/portfolio-thumb.png"
+  },
+  {
+    "title": "Ecommerce - Tienda de Licores",
+    "slug": "ecommerce-licores",
+    "year": 2025,
+    "description": "Ecommerce fullstack con backend en Spring Boot y MySQL, y frontend en HTML/CSS/JavaScript.",
+    "tech": ["Java", "Spring Boot", "MySQL", "JavaScript", "CSS"],
+    "repo": "https://github.com/rodrigoluceroDev/Vinoteca.git",
+    "demo": null,
+    "thumb": "/images/ecommerce-thumb.png"
+  }
+]

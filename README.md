@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Rodrigo Lucero
 
-## Getting Started
+Portfolio personal desarrollado con **Next.js**, **TypeScript**, **Tailwind CSS** y **Framer Motion**.  
+Incluye presentación profesional, proyectos con su stack tecnológico, experiencia laboral, habilidades y formulario de contacto.
 
-First, run the development server:
+---
+
+##  Contenido
+- Presentación profesional
+- Proyectos con su stack tecnológico
+- Experiencia laboral y habilidades
+- Formulario de contacto
+
+---
+
+##  Tecnologías
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+##  Cómo ejecutar en local
+Clona el repositorio y, en la carpeta del proyecto, instala las dependencias:
+
+```bash
+npm install
+```
+
+##  Inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##   Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes empezar a editar la página modificando el archivo `app/page.tsx`.
+La página se actualiza automáticamente mientras editas.
+Este proyecto usa next/font para optimizar y cargar automáticamente Geist, una nueva familia tipográfica creada por Vercel. [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) Para optimizar y cargar automáticamente Geist [Geist](https://vercel.com/font)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##   Más información sobre Next.js
 
-## Learn More
+Para aprender más sobre Next.js, puedes consultar los siguientes recursos:
 
-To learn more about Next.js, take a look at the following resources:
+  * Next.js Documentation – aprende sobre las características y API de Next.js.
+  * Learn Next.js – tutorial interactivo de Next.js.
+  * Next.js GitHub Repository – tu feedback y contribuciones son bienvenidos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Despliegue en Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+La forma más fácil de desplegar tu aplicación Next.js es usando la plataforma Vercel, creada por los desarrolladores de Next.js. [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
-## Deploy on Vercel
+Consulta la documentación de despliegue de Next.js para más detalles. [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-----------------------------------------------------------------------------------------------------------
